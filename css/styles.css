@@ -10,8 +10,8 @@ body {
   min-height: 450px;
   width: 100%;
   background: blue;
-  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
-  clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
 }
 
 
@@ -43,9 +43,35 @@ body {
 
 
 
+
+
+
+
+/*** Info ***/
+
+.info {
+  min-height: 800px;
+  background: red;
+  margin-top: -215px;
+  -webkit-clip-path: polygon(0% 28%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
 /*** DETAILS ***/
 
+.details {
 
+}
 
 
 
