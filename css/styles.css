@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*** INTRO ***/
+
+.intro {
+  min-height: 450px;
+  width: 100%;
+  background: blue;
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
+}
+
+
+
+
+
+
+/*** INTRO QUERIES ***/
+
+@media (max-device-width:480px) {
+
+  .intro {
+    min-height: 250px;
+  }
+
+}
+
+@media (max-device-width:627px) {
+
+  .intro {
+    min-height: 300px;
+    background: red;
+  }
+
+}
+
+
+
+
+
+
+/*** DETAILS ***/
+
+
+
+
+
+
+
+
+/*** PERKS ***/
+
+
+
+
+
+
+
+
+/*** Price ***/
+
+
+
+
+
+
+
+
+/*** FOOTER ***/
